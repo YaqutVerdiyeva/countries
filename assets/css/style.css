@@ -1,0 +1,96 @@
+* {
+  text-decoration: none !important;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body header {
+  padding: 10px 0;
+}
+body header .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .container h2 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+body header .container a {
+  color: black;
+}
+body .countries {
+  background-color: #f2f2f2;
+}
+body .countries .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+body .countries .container .search-select {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .countries .container .search-select .search-input {
+  position: relative;
+}
+body .countries .container .search-select .search-input .search {
+  width: 100%;
+  padding: 15px 70px;
+  border: 1px solid white;
+  box-shadow: 2px 2px 7px rgb(202, 199, 199);
+  border-radius: 5px;
+}
+body .countries .container .search-select .search-input .fa-magnifying-glass {
+  position: absolute;
+  top: 35%;
+  left: 8%;
+}
+body .countries .container .search-select #select {
+  padding: 15px 20px 15px 10px;
+  border: 1px solid white;
+  box-shadow: 2px 2px 7px rgb(202, 199, 199);
+  border-radius: 5px;
+}
+body .countries .container .cards .row .col .card {
+  box-shadow: 1px 1px 7px rgb(202, 199, 199);
+}
+body.dark-mode header {
+  background-color: #2b3844;
+}
+body.dark-mode header .container h2 {
+  color: white;
+}
+body.dark-mode header .container a {
+  color: white;
+}
+body.dark-mode .countries {
+  background-color: #202c36;
+}
+body.dark-mode .countries .container .search-select .search-input .search {
+  background-color: #2b3844;
+}
+body.dark-mode .countries .container .search-select .search-input .fa-magnifying-glass {
+  color: white !important;
+}
+body.dark-mode .countries .container .search-select #select {
+  background-color: #2b3844;
+  color: white;
+}
+body.dark-mode .countries .container .cards .row .col .card {
+  background-color: #2b3844;
+  color: white;
+  box-shadow: 1px 1px 7px rgb(202, 199, 199);
+}
+
+@media only screen and (max-width: 767px) {
+  .search-select {
+    flex-direction: column;
+  }
+  .search-select .search {
+    margin: 10px;
+  }
+}/*# sourceMappingURL=style.css.map */
